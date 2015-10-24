@@ -15,13 +15,15 @@ function displayTime() {
   
   color = "#"+h+m+s;
   //set background color
-  document.body.style.background = color;
-  //set time
+  //document.body.style.background = color; alt for fullpage one-color background
+
+  $("#hex").css("background-color");
   document.getElementById("hex").innerHTML = color;
-  
+
+  //set time
   //retrigger the function every second
   setTimeout(displayTime, 1000);
-}
+};
 
 //call the function
 displayTime();

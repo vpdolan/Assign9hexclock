@@ -4,21 +4,20 @@
 /*basic reset*/
 /*make the body occupy full height*/
 body {
-  padding-top: 130px;
-  margin: 0;
-  text-align: center; }
-
-.container {
-  width: 400px;
-  height: 225px;
-  border: 8px solid black;
-  border-radius: 35px;
-  margin: auto;
-  padding-top: 155px; }
+  margin-top: 175px; }
 
 #hex {
+  background-color: black;
   color: white;
   font: 64px/64px Lato;
   height: 64px;
-  margin: 0;
-  padding: 0; }
+  margin: auto;
+  background-size: 400px;
+  height: 250px;
+  width: 400px;
+  border-radius: 35px;
+  margin: auto;
+  border: 8px solid red;
+  text-align: center;
+  line-height: 250px;
+  vertical-align: middle; }
